@@ -2,13 +2,13 @@
 <div >
     <div  class="flex flex-col m-5 text-gray-400 hover:scale-105 fade-in-text ease-in duration-200">
 
-        <div class="text-base text-gray-100 "> {{ publication.acf.publication_title }} </div>
-        <span> {{ publication.acf.publication_authors }} &nbsp;</span>
+        <div class="text-base text-gray-100 "> {{ publication.title }} </div>
+
         <div class="flex">
-            <a :href="publication.acf.publication_doi" class="underline decoration-solid hover:text-gray-200 "> {{ publication.acf.publication_journal }}  </a>
-            &nbsp; <strong>{{ publication.acf.publication_volume }}</strong> 
-            <span v-show="publication.acf.publication_pages.length >1" >, {{ publication.acf.publication_pages }} &nbsp; </span>
-            <span> ({{ publication.acf.publication_dop }}) </span>
+            <a :href="publication.doi" class="underline decoration-solid hover:text-gray-200 "> {{ publication.journal }}  </a>
+            &nbsp; <strong>{{ publication.volume }}</strong> 
+            <span v-show="publication.pages.length >1" >, {{ publication.pages }} &nbsp; </span>
+            <span> ({{ publication.dop }}) </span>
         </div>
         
     </div>
@@ -16,13 +16,17 @@
 </div>
 </template>
 
+
 <script>
 export default {
+  name: "PublicationItem",
   props: {
-      publication:'',
+      publication: '',
   },
 }
 </script>
+
+
 
 <style scoped>
 .separateur{
