@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #35495e;
+  --secondary: var(--color-emerald-600);
+  --light: #E5E7EB;
+  --background: #3c3e3f
+;
+}
+
+body{
+  background-color: var(--background);
+  width: 80%;
+  margin-left: 10%;
+  align-content: item;
+}
+
+
