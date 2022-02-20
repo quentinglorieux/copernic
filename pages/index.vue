@@ -3,7 +3,7 @@
   <NuxtLink class="button-menu" to="/join-us"> Jobs </NuxtLink>
   <NuxtLink class="button-menu" to="/publications"> Publications </NuxtLink>
   <NuxtLink class="button-menu" to="/research"> Research </NuxtLink>
-  <NuxtLink class="button-menu" to="/team"> Team </NuxtLink>
+  <NuxtLink class="button-menu" to="/member"> Team </NuxtLink>
   </div>
 </template>
 

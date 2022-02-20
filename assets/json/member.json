@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 30,
     "date": "2021-07-16T20:59:25",
     "modified": "2021-07-16T20:59:25",
     "order": "1",
@@ -12,10 +12,11 @@
     "status": "PI",
     "email": "nom.prenom@mail.com",
     "affiliation": "université de Paris",
+    "pi": true,
     "permanent": true,
     "alumni": false,
-    "description": "J'ai très bien travaillé pour en arriver là.",
-    "image": "https://media.istockphoto.com/photos/cute-panda-bear-climbing-in-tree-picture-id523761634?k=20&m=523761634&s=612x612&w=0&h=fycQb31QlRoNLdJWWddooJ94a-54YLYQ3ggTLPkhvmk=",
+    "description": "Donec egestas, libero ut vestibulum scelerisque, magna tortor porta sapien, et sagittis lacus est nec nunc. Curabitur nulla quam, venenatis at semper sed, feugiat in lorem. Aliquam a ligula id diam vestibulum laoreet. Donec at nunc est, eu vulputate velit. Integer risus dui, pretium sed commodo non, tincidunt in sem. Nunc ullamcorper volutpat pulvinar. Donec in pharetra magna. Praesent porttitor erat sed lorem aliquam bibendum. Proin aliquet neque et lectus aliquet mollis. Nulla rhoncus justo a sem sollicitudin id mollis est facilisis. Morbi blandit arcu at elit condimentum bibendum volutpat vestibulum libero. Aliquam nec tortor vitae sapien faucibus molestie convallis ac elit. Suspendisse potenti. Cras pellentesque velit et magna pellentesque sit amet sagittis tortor pretium. In a nisl dui, nec faucibus tellus.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/2011-07-14_R%C3%B8d_panda_i_tre.jpg",
     "cv": "http://www.slate.fr/sites/default/files/styles/1680x980/public/rtx1tglo.jpg",
     "orcid": "0000-0003-0903-0233",
     "scholar": "c4Y1-REAAAAJ",
@@ -24,5 +25,32 @@
     "topics": ["Plasticity of the Sense of Agency"],
     "teams": ["Team 1"],
     "publications": ["1", "2"]
-  }
+  },
+    {
+      "id": 31,
+      "date": "2021-07-16T20:59:25",
+      "modified": "2021-07-16T20:59:25",
+      "order": "1",
+      "owner": "quentin",
+      "highlight": true,
+
+      "firstname": "Prénom 2",
+      "lastname": "Nom2 ",
+      "status": "Professor",
+      "email": "nom.prenom@mail.com",
+      "affiliation": "université de Paris",
+      "pi": false,
+      "permanent": true,
+      "alumni": false,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non ullamcorper erat. Donec tincidunt felis nec tortor sodales sit amet accumsan purus viverra. Suspendisse rhoncus dui a nisi varius blandit. Suspendisse congue semper nisi non sagittis. Praesent ullamcorper turpis et neque auctor varius. Mauris convallis molestie nisi. Cras ante augue, luctus a malesuada ut, venenatis sit amet massa. Praesent porta, lacus ac auctor ornare, velit eros interdum nisl, sit amet varius justo orci eu orci. Morbi vulputate mauris ut enim ultrices tincidunt. Vestibulum eu urna dui. Cras neque mi, laoreet ac adipiscing at, sagittis sed tellus. Praesent lobortis massa ac massa ultricies in mollis diam hendrerit. Etiam tortor nisi, vehicula ut venenatis non, laoreet eu tortor. Mauris ac tortor orci.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/The_red_panda_%28Ailurus_fulgens%29_1.jpg/1920px-The_red_panda_%28Ailurus_fulgens%29_1.jpg",
+      "cv": "http://www.slate.fr/sites/default/files/styles/1680x980/public/rtx1tglo.jpg",
+      "orcid": "0000-0003-0903-0233",
+      "scholar": "c4Y1-REAAAAJ",
+      "twitter": "@quentinglorieux",
+      "website": "https://www.google.fr",
+      "topics": ["Plasticity of the Sense of Agency"],
+      "teams": ["Team 1"],
+      "publications": ["1", "2"]
+    }
 ]
